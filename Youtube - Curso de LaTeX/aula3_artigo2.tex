@@ -1,0 +1,25 @@
+\documentclass[12pt, a4paper, openany]{book}
+\usepackage[brazilian]{babel} %Traduz o documento para o português brasileiro.
+\usepackage[utf8]{inputenc} %Reconhece à acentuação
+\usepackage{lipsum} %Gera texto aleatório
+
+%preâmbulo
+\title{Esse é o título do 1º artigo da aula 3}
+\author{César Antônio de Magalhães}
+\date{\today}
+
+%conteúdo
+\begin{document}
+	\renewcommand{\contentsname}{Índice}
+	%\addcontentsline{toc}{chapter}[Introdução]	
+	\tableofcontents
+	
+	\part{Primeira grande parte}	
+		%\input{aula3_artigo2_parte1}
+		\include{aula3_artigo2_parte1}	
+			
+	\part{Segunda grande parte}	
+		%\input{aula3_artigo2_parte2}
+		\include{aula3_artigo2_parte2}
+							
+\end{document}
