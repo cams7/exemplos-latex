@@ -1,0 +1,29 @@
+\documentclass[12pt, a4paper]{article}
+\usepackage[brazilian]{babel} %Traduz o documento para o português brasileiro.
+\usepackage[utf8]{inputenc} %Reconhece à acentuação
+\usepackage{lipsum} %Gera texto aleatório
+\usepackage{ragged2e} %Mais opções de alinhamento
+
+%preâmbulo
+\title{Esse é o título do meu 2º artigo}
+\author{César Antônio de Magalhães \thanks{Agradeço a minha mãe}}
+\date{\today}
+
+%conteúdo
+\begin{document}
+
+\setlength{\parindent}{2cm}
+\lipsum[1]
+
+\noindent
+\lipsum[2]
+
+\newpage
+\lipsum[3]
+
+\vspace{2cm}
+Lista de compras: Batata, \hspace{1cm}Feijão, \hspace{1cm}Arroz.
+
+Esta linha deve ser quebrada aqui\hfill\break a partir desse ponto deve começar uma nova linha.
+
+\end{document}

@@ -1,0 +1,64 @@
+\documentclass[12pt, a4paper, twocolumn]{article}
+\usepackage[brazilian]{babel} %Traduz o documento para o português brasileiro.
+\usepackage[utf8]{inputenc} %Reconhece à acentuação
+\usepackage{lipsum} %Gera texto aleatório
+\usepackage{ragged2e} %Mais opções de alinhamento
+
+%preâmbulo
+\title{Esse é o título do meu artigo}
+\author{César Antônio de Magalhães \thanks{Agradeço a minha mãe}}
+\date{\today}
+
+%conteúdo
+\begin{document}
+	
+\begin{titlepage}
+	\maketitle
+\end{titlepage}
+
+\begin{abstract}
+	\lipsum[1]
+\end{abstract}
+
+\section{Primeiro tema}
+
+Este é o texto do meu documento.
+\\ Parágrafo sem indentação.
+\newline Outra parágrafo sem indentação. 
+\par Aqui se inicia outro parágrafo. 
+
+ Mais texto que se inicia em novo parágrafo. 
+
+\section{Texto alinhado ao centro}
+
+\begin{center}
+	\lipsum[1]
+\end{center}
+
+\section{Texto alinhado à esquerda}
+
+\begin{flushleft}
+	\lipsum[1]
+\end{flushleft}
+
+\section{Texto alinhado à direita}
+
+\begin{flushright}
+	\lipsum[1]
+\end{flushright}
+
+\section{Outro texto alinhado à esquerda}
+\raggedright
+\lipsum[1]
+
+\section{Outro texto alinhado à direita}
+\raggedleft
+\lipsum[1]
+
+\justifying
+
+\section{Texto aleatório}
+
+\lipsum
+
+\end{document}
