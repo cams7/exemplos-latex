@@ -1,0 +1,123 @@
+\documentclass[12pt, a4paper]{article}
+\usepackage[brazilian]{babel} %Traduz o documento para o português brasileiro.
+\usepackage[utf8]{inputenc} %Reconhece à acentuação
+\usepackage{lipsum} %Gera texto aleatório
+
+%preâmbulo
+\title{Esse é o título do 1º artigo da aula 3}
+\author{César Antônio de Magalhães}
+\date{\today}
+
+%conteúdo
+\begin{document}
+		
+	\begin{tabular}{|l|@{}l@{}|p{4cm}|c|r|l@{Teste}|}
+		\hline
+		\multicolumn{2}{|c|}{Dados 1} & \multicolumn{2}{c|}{dados 2} &  & \\ \hline
+		Status  & Jogador             & Posição     & Gols marcados  & Faltas & \\ \hline
+		Reserva & João                & Atacante    &       5        &      2 & \\ \cline{2-6}
+		        & José                & Lateral     &       2        &      1 & \\ \cline{2-6}
+		        & Mário               & Centravante &       4        &      1 & \\ \hline
+	\end{tabular}
+	
+	Outra tabela
+	
+	\begin{tabular}{|c|c|}
+		\hline 
+		Alimentos & Nota \\ 
+		\hline 
+		Laranja & 10 \\ 
+		\hline 
+		Abacate  & 9 \\ 
+		\hline 
+	\end{tabular} 
+	
+	\tableofcontents
+	
+	\listoftables
+	
+	\section[Lista de exercícios]{Exercícios que demoram muito para serem feitos, e que provavelmente não saberei fazer}
+	
+	\begin{table}[htbp]
+		\centering	
+		\begin{tabular}{lr@{.}l}
+			Expressão       & \multicolumn{2}{c}{Valor} \\ \hline
+			$\pi$           &     3 & 1416              \\
+			$\pi^\pi$       &    36 & 46                \\
+			$(\pi^\pi)^\pi$ & 80662 & 7                 \\ \hline
+		\end{tabular}
+		
+		\caption{Tabela de exercícios I}
+	\end{table}
+	
+	\lipsum[1]
+	
+	\begin{table}[htbp]
+		\centering	
+		\begin{tabular}{lr@{.}l}
+			Expressão       & \multicolumn{2}{c}{Valor} \\ \hline
+			$\pi$           &     3 & 1416              \\
+			$\pi^\pi$       &    36 & 46                \\
+			$(\pi^\pi)^\pi$ & 80662 & 7                 \\ \hline
+		\end{tabular}
+		
+		\caption{Tabela de exercícios II}
+	\end{table}
+	
+	\lipsum[2]
+	
+	\begin{table}[htbp]
+		\centering	
+		\begin{tabular}{lr@{.}l}
+			Expressão       & \multicolumn{2}{c}{Valor} \\ \hline
+			$\pi$           &     3 & 1416              \\
+			$\pi^\pi$       &    36 & 46                \\
+			$(\pi^\pi)^\pi$ & 80662 & 7                 \\ \hline
+		\end{tabular}
+		
+		\caption{Tabela de exercícios III}
+	\end{table}
+	
+	\lipsum[3]
+	
+	\begin{table}[htbp]
+		\centering	
+		\begin{tabular}{lr@{.}l}
+			Expressão       & \multicolumn{2}{c}{Valor} \\ \hline
+			$\pi$           &     3 & 1416              \\
+			$\pi^\pi$       &    36 & 46                \\
+			$(\pi^\pi)^\pi$ & 80662 & 7                 \\ \hline
+		\end{tabular}
+		
+		\caption{Tabela de exercícios IV}
+	\end{table}
+	
+	\lipsum
+	
+	\begin{table}[htbp]
+		\centering	
+		\begin{tabular}{lr@{.}l}
+			Expressão       & \multicolumn{2}{c}{Valor} \\ \hline
+			$\pi$           &     3 & 1416              \\
+			$\pi^\pi$       &    36 & 46                \\
+			$(\pi^\pi)^\pi$ & 80662 & 7                 \\ \hline
+		\end{tabular}
+		
+		\caption{Tabela de exercícios V}
+	\end{table}
+	
+	\lipsum
+	
+	\begin{table}[htbp]
+		\centering	
+		\begin{tabular}{lr@{.}l}
+			Expressão       & \multicolumn{2}{c}{Valor} \\ \hline
+			$\pi$           &     3 & 1416              \\
+			$\pi^\pi$       &    36 & 46                \\
+			$(\pi^\pi)^\pi$ & 80662 & 7                 \\ \hline
+		\end{tabular}
+		
+		\caption[Tabela de exercícios VI]{Tabela de exercícios que demoram muito para serem feitos, e que provavelmente não saberei fazer}
+	\end{table}
+
+\end{document}
