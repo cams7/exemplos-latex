@@ -31,7 +31,7 @@ Exemplos retirados do Youtube através do canal [Curso de LaTeX] (https://www.yo
 -------------------
 01. Curso de LaTeX - [Aula Zero] (https://www.youtube.com/watch?v=SaVO8rrttDY&list=PLJH9xsc0pltklnechNXNZ9EPFRb7IKG2G&index=1)
 02. [Curso de LaTeX] (https://github.com/cams7/exemplos-latex/tree/master/Youtube%20-%20Curso%20de%20LaTeX) - [Aula 1] (https://www.youtube.com/watch?v=Q7xIG79shRU&list=PLJH9xsc0pltklnechNXNZ9EPFRb7IKG2G&index=2)
-03. Curso de LaTeX - [Aula 2] (https://www.youtube.com/watch?v=rdCYhkjjqRw&list=PLJH9xsc0pltklnechNXNZ9EPFRb7IKG2G&index=3)
+03. [Curso de LaTeX] (https://github.com/cams7/exemplos-latex/tree/master/Youtube%20-%20Curso%20de%20LaTeX) - [Aula 2] (https://www.youtube.com/watch?v=rdCYhkjjqRw&list=PLJH9xsc0pltklnechNXNZ9EPFRb7IKG2G&index=3)
 04. Curso de LaTeX - [Aula 3] (https://www.youtube.com/watch?v=h5LEnTvllFg&list=PLJH9xsc0pltklnechNXNZ9EPFRb7IKG2G&index=4)
 05. Curso de LaTeX - [Aula 4] (https://www.youtube.com/watch?v=zqS1jnPAfl8&list=PLJH9xsc0pltklnechNXNZ9EPFRb7IKG2G&index=5)
 04. Curso de LaTeX - [Aula 5] (https://www.youtube.com/watch?v=I4Mc2Y3Azm8&list=PLJH9xsc0pltklnechNXNZ9EPFRb7IKG2G&index=6)

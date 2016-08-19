@@ -1,0 +1,135 @@
+\documentclass[12pt, a4paper]{article}
+\usepackage[brazilian]{babel} %Traduz o documento para o português brasileiro.
+\usepackage[utf8]{inputenc} %Reconhece à acentuação
+\usepackage{lipsum} %Gera texto aleatório
+\usepackage{ragged2e} %Mais opções de alinhamento
+
+%preâmbulo
+\title{Esse é o título do 1º artigo da aula 2}
+\author{César Antônio de Magalhães \thanks{Agradeço a minha mãe}}
+\date{\today}
+
+%conteúdo
+\begin{document}
+
+\section{Font Styles}
+\textit{Itálico}\hspace{1cm}{\it Itálico}
+
+\textbf{Negrito}\hspace{1cm}{\bf Negrito}
+
+\textrm{Romano}\hspace{1cm}{\rm Romano}
+
+\textsf{Sans Serif}\hspace{1cm}{\sf Sans Serif}
+
+\texttt{Monoespaçado}\hspace{1cm}{\tt Monoespaçado}
+
+\textsc{Small Caps}\hspace{1cm}{\sc Small Caps}
+
+\textsl{Inclinado}\hspace{1cm}{\sl Inclinado}
+
+\emph{Enfase}
+
+\underline{Sublinhado}
+
+\section{Font Sizes}
+{\tiny tiny}
+
+{\scriptsize scriptsize}
+
+{\footnotesize footnotesize}
+
+{\small small}
+
+normal
+
+{\large large}
+
+{\Large Large}
+
+{\LARGE LARGE}
+
+{\huge huge}
+
+{\Huge Huge}
+
+\section{Citação de outro autor}
+\lipsum[1]
+%citação de outro autor
+\begin{quote}
+	\lipsum[2]
+\end{quote}
+
+\section{Citação longa de outro autor}
+\lipsum[1]
+%Citação longa de outro autor
+\begin{quotation}
+	\lipsum[2]
+\end{quotation}
+
+\section{Inserção de verso poético}
+\lipsum[1]
+%Inserção de verso poético
+\begin{verse}
+	\lipsum[2]
+\end{verse}
+
+\section{Imprime caracteres especiais}
+\&
+\$
+\#
+\%
+\_
+\{\}
+\^{}
+\~{}
+$\backslash$
+%Imprime caracteres especiais da forma que foi escrito
+\begin{verbatim}
+	\lipsum[2]
+	
+	&
+	$
+	#
+	%
+	_
+	{}
+	^
+	~
+	\
+
+\end{verbatim}
+
+\section{List Enviroments}
+\begin{itemize}
+	\item Banana
+	\item maça
+	\item Abacaxi
+	\item laranja
+\end{itemize}
+
+\begin{enumerate}
+	\item Banana
+	\item maça
+	\item Abacaxi
+	\item laranja
+	\item Outros
+	\begin{enumerate}
+		\item Arroz
+		\item Trigo
+		\item Cevada
+		\item Outros
+		\begin{enumerate}
+			\item Feijão
+			\item Lentilha
+			\item Batata
+		\end{enumerate}
+	\end{enumerate} 
+\end{enumerate}
+
+\begin{description}
+	\item[Arroz] Cereal comum nas refeições brasileiras
+	\item[Feijão] Outro item que não falta na mesa dos brasileiros
+	\item[Jilo] Ninguém gosta
+\end{description}
+
+\end{document}
