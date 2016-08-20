@@ -40,9 +40,9 @@ Exemplos retirados do Youtube através do canal [LCMAquino] (https://www.youtube
 -------------------
 01. Apresentação do Curso. | [Introdução ao LaTeX.] (https://www.youtube.com/watch?v=xQ3yYqLlHcQ&list=PLa_2246N48_p9ndUHlO255uvKtSR8mshE&index=1)
 02. Breve Histórico e Programas Necessários. | [Introdução ao LaTeX.] (https://www.youtube.com/watch?v=un5PtGCRCfE&list=PLa_2246N48_p9ndUHlO255uvKtSR8mshE&index=2)
-03. Formatação Básica de Texto. | [Introdução ao LaTeX.] (https://www.youtube.com/watch?v=4pTf8vB9Ezg&list=PLa_2246N48_p9ndUHlO255uvKtSR8mshE&index=3)
-04. Listas e Operações Básicas. | [Introdução ao LaTeX.] (https://www.youtube.com/watch?v=sqnylLwbZFE&list=PLa_2246N48_p9ndUHlO255uvKtSR8mshE&index=4)
-05. Notações de Conjunto. | [Introdução ao LaTeX.] (https://www.youtube.com/watch?v=F-yGTt9Bty4&list=PLa_2246N48_p9ndUHlO255uvKtSR8mshE&index=5)
+03. [Formatação Básica de Texto.] (https://github.com/cams7/exemplos-latex/tree/master/Youtube%20-%20LCMAquino) | [Introdução ao LaTeX.] (https://www.youtube.com/watch?v=4pTf8vB9Ezg&list=PLa_2246N48_p9ndUHlO255uvKtSR8mshE&index=3)
+04. [Listas e Operações Básicas.] (https://github.com/cams7/exemplos-latex/tree/master/Youtube%20-%20LCMAquino) | [Introdução ao LaTeX.] (https://www.youtube.com/watch?v=sqnylLwbZFE&list=PLa_2246N48_p9ndUHlO255uvKtSR8mshE&index=4)
+05. [Notações de Conjunto.] (https://github.com/cams7/exemplos-latex/tree/master/Youtube%20-%20LCMAquino) | [Introdução ao LaTeX.] (https://www.youtube.com/watch?v=F-yGTt9Bty4&list=PLa_2246N48_p9ndUHlO255uvKtSR8mshE&index=5)
 06. Notações de Função. | [Introdução ao LaTeX.] (https://www.youtube.com/watch?v=jznbyrq8ua8&list=PLa_2246N48_p9ndUHlO255uvKtSR8mshE&index=6)
 07. Notações de Matriz. | [Introdução ao LaTeX.] (https://www.youtube.com/watch?v=u_Hse_s2aKE&list=PLa_2246N48_p9ndUHlO255uvKtSR8mshE&index=7)
 08. Notações de Geometria Analítica. | [Introdução ao LaTeX.] (https://www.youtube.com/watch?v=8hjIn2VvI1c&list=PLa_2246N48_p9ndUHlO255uvKtSR8mshE&index=8)
