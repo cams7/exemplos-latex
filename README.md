@@ -35,3 +35,18 @@ Exemplos retirados do Youtube através do canal [Curso de LaTeX] (https://www.yo
 04. [Curso de LaTeX] (https://github.com/cams7/exemplos-latex/tree/master/Youtube%20-%20Curso%20de%20LaTeX) - [Aula 3] (https://www.youtube.com/watch?v=h5LEnTvllFg&list=PLJH9xsc0pltklnechNXNZ9EPFRb7IKG2G&index=4)
 05. [Curso de LaTeX] (https://github.com/cams7/exemplos-latex/tree/master/Youtube%20-%20Curso%20de%20LaTeX) - [Aula 4] (https://www.youtube.com/watch?v=zqS1jnPAfl8&list=PLJH9xsc0pltklnechNXNZ9EPFRb7IKG2G&index=5)
 06. [Curso de LaTeX] (https://github.com/cams7/exemplos-latex/tree/master/Youtube%20-%20Curso%20de%20LaTeX) - [Aula 5] (https://www.youtube.com/watch?v=I4Mc2Y3Azm8&list=PLJH9xsc0pltklnechNXNZ9EPFRb7IKG2G&index=6)
+
+Exemplos retirados do Youtube através do canal [LCMAquino] (https://www.youtube.com/channel/UCKuwqceoy_TPnGG_5AnI7DQ) - [Introdução ao LaTeX] (https://www.youtube.com/playlist?list=PLa_2246N48_p9ndUHlO255uvKtSR8mshE)
+-------------------
+01. Apresentação do Curso. | [Introdução ao LaTeX.] (https://www.youtube.com/watch?v=xQ3yYqLlHcQ&list=PLa_2246N48_p9ndUHlO255uvKtSR8mshE&index=1)
+02. Breve Histórico e Programas Necessários. | [Introdução ao LaTeX.] (https://www.youtube.com/watch?v=un5PtGCRCfE&list=PLa_2246N48_p9ndUHlO255uvKtSR8mshE&index=2)
+03. Formatação Básica de Texto. | [Introdução ao LaTeX.] (https://www.youtube.com/watch?v=4pTf8vB9Ezg&list=PLa_2246N48_p9ndUHlO255uvKtSR8mshE&index=3)
+04. Listas e Operações Básicas. | [Introdução ao LaTeX.] (https://www.youtube.com/watch?v=sqnylLwbZFE&list=PLa_2246N48_p9ndUHlO255uvKtSR8mshE&index=4)
+05. Notações de Conjunto. | [Introdução ao LaTeX.] (https://www.youtube.com/watch?v=F-yGTt9Bty4&list=PLa_2246N48_p9ndUHlO255uvKtSR8mshE&index=5)
+06. Notações de Função. | [Introdução ao LaTeX.] (https://www.youtube.com/watch?v=jznbyrq8ua8&list=PLa_2246N48_p9ndUHlO255uvKtSR8mshE&index=6)
+07. Notações de Matriz. | [Introdução ao LaTeX.] (https://www.youtube.com/watch?v=u_Hse_s2aKE&list=PLa_2246N48_p9ndUHlO255uvKtSR8mshE&index=7)
+08. Notações de Geometria Analítica. | [Introdução ao LaTeX.] (https://www.youtube.com/watch?v=8hjIn2VvI1c&list=PLa_2246N48_p9ndUHlO255uvKtSR8mshE&index=8)
+09. Notações de Cálculo. | [Introdução ao LaTeX.] (https://www.youtube.com/watch?v=qAdOUVHu1mM&list=PLa_2246N48_p9ndUHlO255uvKtSR8mshE&index=9)
+10. Inserir Figura. | [Introdução ao LaTeX.] (https://www.youtube.com/watch?v=Km3-KlYLYu8&list=PLa_2246N48_p9ndUHlO255uvKtSR8mshE&index=10)
+11. Inserir Tabela. | [Introdução ao LaTeX.] (https://www.youtube.com/watch?v=u9Y8tRhnx-0&list=PLa_2246N48_p9ndUHlO255uvKtSR8mshE&index=11)
+12. Formatação de Textos Longos. | [Introdução ao LaTeX.] (https://www.youtube.com/watch?v=4u23O5s6ark&list=PLa_2246N48_p9ndUHlO255uvKtSR8mshE&index=12)
