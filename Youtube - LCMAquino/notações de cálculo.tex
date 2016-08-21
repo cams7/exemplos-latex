@@ -1,0 +1,60 @@
+%Preâmbulo
+\documentclass[12pt,a4paper]{article}
+\usepackage[brazilian]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{amsmath,amsfonts,amssymb}
+\DeclareMathOperator{\sen}{sen}
+\DeclareMathOperator{\tg}{tg}
+\DeclareMathOperator{\cossec}{cossec}
+\newcommand{\limite}{\displaystyle\lim}
+\newcommand{\integral}{\displaystyle\int}
+\newcommand{\somatorio}{\displaystyle\sum}
+
+\title{Notações de Cálculo}
+\author{César Antônio de Magalhães}
+\date{\today}
+
+%Corpo do texto
+\begin{document}
+	\begin{enumerate}
+		\item Calcule os limites abaixo.
+		\begin{enumerate}
+			\item $\displaystyle \lim_{x \to 1} \dfrac{x^2 - 1}{x- 1}$
+			\item $\limite_{x \to 1} \frac{x^2 - 1}{x- 1}$
+			\item $$\lim_{x \to 1} \dfrac{x^2 - 1}{x- 1}$$
+		\end{enumerate}
+		\item Seja a função definida por $f(x) = x^2 - \sqrt{x}$. Calcule as derivadas abaixo.
+		\begin{enumerate}
+			\item $f'$
+			\item $f''$
+			\item $f'''$
+			\item $f^{(iv)}$
+			\item $f^{(v)}$
+			\item $\dfrac{df}{dx}$
+			\item $\dfrac{d^2f}{dx^2}$
+			\item $\dfrac{d^3f}{dx^3}$
+			\item $\dfrac{d^4f}{dx^4}$
+			\item $\dfrac{d^5f}{dx^5}$
+		\end{enumerate}
+		\item Seja a função definida por $f(x,\,y) = yx^2 - \sqrt{x} + y^3$. Calcule as derivadas abaixo.
+		\begin{enumerate}
+			\item $\dfrac{\partial f}{\partial x}$
+			\item $\dfrac{\partial f}{\partial y}$
+			\item $\dfrac{\partial^2f}{\partial x^2}$
+			\item $\dfrac{\partial}{\partial x} \left(\dfrac{\partial f}{\partial y}\right)$
+		\end{enumerate}
+		\item Cacule as integrais abaixo.
+		\begin{enumerate}
+			\item $\displaystyle\int_1^5 x^2\cos x\, dx$
+			\item $\integral_1^5 x^2\cos x\, dx$
+			\item $$\int_1^5 x^2\cos x\, dx$$
+		\end{enumerate}
+		\item Cacule os somatórios abaixo.
+		\begin{enumerate}
+			\item $\displaystyle\sum_{i=1}^n a_i$
+			\item $\somatorio_{i=1}^n a_i$
+			\item $$\sum_{i=1}^n a_i$$
+		\end{enumerate}
+	\end{enumerate}		
+\end{document}

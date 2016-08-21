@@ -1,0 +1,37 @@
+%Preâmbulo
+\documentclass[12pt,a4paper]{article}
+\usepackage[brazilian]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{amsmath,amsfonts,amssymb}
+\DeclareMathOperator{\sen}{sen}
+\DeclareMathOperator{\tg}{tg}
+\DeclareMathOperator{\cossec}{cossec}
+
+\title{Notações de Geometria Analítica}
+\author{César Antônio de Magalhães}
+\date{\today}
+
+%Corpo do texto
+\begin{document}
+	\begin{enumerate}
+		\item Seja o segmento $\overline{AB}$. A partir dele podemos definir os segmentos orientados
+		$\overrightarrow{AB}$ e $\overrightarrow{BA}$.
+		\item Seja $\vec{u}$.
+		\item Sejam os vetores $\vec{u} = (1;\, -1;\, 2)$ e $\vec{2} = (2;\, 5;\, -4)$. Calcule o seguinte.
+		\begin{enumerate}
+			\item Produto interno: $\vec{u} \cdot \vec{v}$ ou $\langle \vec{u},\, \vec{v} \rangle$
+			\item Produto vetorial: $\vec{u} \times \vec{v}$
+			\item Módulo de vetor: $|\vec{u}|$ , $\|\vec{u}\|$ ou $\left\| \overrightarrow{AB} \right\|$
+		\end{enumerate}
+		\item Sejam os vetores $\vec{u} = (1;\, -1;\, 2)$ e $\vec{2} = (2;\, 5;\, -4)$. Verifique se $\vec{u} \perp \vec{u}$.
+		\item Sejam os planos $\alpha : x - 2y + 6z - 3 = 0$ e $\beta : x - 2y -3 = 0$
+		\item Sejam os vetores $\vec{u} = (x_0;\, y_0;\, z_0)$ e $\vec{v} = (x_1;\, y_1;\, z_1)$. Temos que: 
+		$$\vec{u} \times \vec{v} = 
+		\begin{vmatrix}
+			\vec{i} & \vec{j} & \vec{k} \\
+			x_0 & y_0 & z_0 \\
+			x_1 & y_1 & z_1
+		\end{vmatrix}$$		
+	\end{enumerate}	
+\end{document}
