@@ -48,5 +48,5 @@ Exemplos retirados do Youtube através do canal [LCMAquino] (https://www.youtube
 08. [Notações de Geometria Analítica.] (https://github.com/cams7/exemplos-latex/tree/master/Youtube%20-%20LCMAquino) | [Introdução ao LaTeX.] (https://www.youtube.com/watch?v=8hjIn2VvI1c&list=PLa_2246N48_p9ndUHlO255uvKtSR8mshE&index=8)
 09. [Notações de Cálculo.] (https://github.com/cams7/exemplos-latex/tree/master/Youtube%20-%20LCMAquino) | [Introdução ao LaTeX.] (https://www.youtube.com/watch?v=qAdOUVHu1mM&list=PLa_2246N48_p9ndUHlO255uvKtSR8mshE&index=9)
 10. [Inserir Figura.] (https://github.com/cams7/exemplos-latex/tree/master/Youtube%20-%20LCMAquino) | [Introdução ao LaTeX.] (https://www.youtube.com/watch?v=Km3-KlYLYu8&list=PLa_2246N48_p9ndUHlO255uvKtSR8mshE&index=10)
-11. Inserir Tabela. | [Introdução ao LaTeX.] (https://www.youtube.com/watch?v=u9Y8tRhnx-0&list=PLa_2246N48_p9ndUHlO255uvKtSR8mshE&index=11)
-12. Formatação de Textos Longos. | [Introdução ao LaTeX.] (https://www.youtube.com/watch?v=4u23O5s6ark&list=PLa_2246N48_p9ndUHlO255uvKtSR8mshE&index=12)
+11. [Inserir Tabela.] (https://github.com/cams7/exemplos-latex/tree/master/Youtube%20-%20LCMAquino) | [Introdução ao LaTeX.] (https://www.youtube.com/watch?v=u9Y8tRhnx-0&list=PLa_2246N48_p9ndUHlO255uvKtSR8mshE&index=11)
+12. [Formatação de Textos Longos.] (https://github.com/cams7/exemplos-latex/tree/master/Youtube%20-%20LCMAquino) | [Introdução ao LaTeX.] (https://www.youtube.com/watch?v=4u23O5s6ark&list=PLa_2246N48_p9ndUHlO255uvKtSR8mshE&index=12)
