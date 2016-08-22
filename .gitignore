@@ -181,3 +181,7 @@ TSWLatexianTemp*
 
 #Windows file
 Thumbs.db
+
+#Media
+*.mp4
+*.mp3
