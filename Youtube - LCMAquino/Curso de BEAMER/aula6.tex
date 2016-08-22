@@ -1,0 +1,134 @@
+\documentclass[aspectratio=169]{beamer}
+
+\usepackage[brazilian]{babel}
+\usepackage[utf8]{inputenc}
+
+\useoutertheme{infolines}
+\useoutertheme{tree}
+
+\useinnertheme[shadow=true]{rounded}
+\useinnertheme{circles}
+
+%\usecolortheme{dolphin}
+%\usecolortheme{orchid}
+\definecolor{minhacor}{rgb}{1, 0.75, 0.5}
+\setbeamercolor{normal text}{fg=black, bg=white}
+\setbeamercolor{title}{fg=black!90}
+\setbeamercolor{author}{fg=black!70}
+\setbeamercolor{institute}{fg=yellow!90}
+\setbeamercolor{date}{fg=green!80}
+\setbeamercolor{frametitle}{fg=blue, bg=minhacor!80}
+\setbeamercolor{structure}{fg=green}
+\setbeamercolor{block title}{fg=black!90, bg=green!80}
+\setbeamercolor{block body}{fg=white, bg=green!90}
+\setbeamercolor{math text inlined}{fg=black!80}
+\setbeamercolor{math text displayed}{fg=black!70}
+\setbeamercolor{normal text in math text}{fg=black!60}
+\setbeamercolor{section in head/foot}{fg=black!90, bg=green!80}
+\setbeamercolor{subsection in head/foot}{fg=black!90, bg=green!60}
+\setbeamercolor{alerted text}{fg=gray, bg=white}
+\setbeamercolor{pallete primary}{fg=minhacor, bg=gray!90}
+\setbeamercolor{pallete secondary}{fg=minhacor, bg=gray!80}
+\setbeamercolor{pallete tertiary}{fg=minhacor, bg=gray!70}
+\setbeamercolor{pallete quartenary}{fg=minhacor, bg=gray!60}
+\setbeamercolor{page in footline}{fg=minhacor, bg=gray!90}
+
+\usefonttheme{serif}
+
+\setbeamercovered{transparent}
+
+\usepackage{amsmath,amsfonts,amssymb}
+
+\usepackage{graphicx}
+\graphicspath{{img/}}
+
+\usepackage{multimedia}
+
+\title{Personalizar o Tema da Apresentação}
+\subtitle{Curso de BEAMER}
+\author[César]{César A. de Magalhães}
+\institute[UNOPAR]{Universidade do Norte do Paraná \\ https://vestibular.unoparead.com.br}
+\date{\today}
+\logo{\includegraphics[scale=0.25]{ctan-leao.jpg}}
+
+\setbeamertemplate{footline}{
+	\begin{beamercolorbox}[sep=0.5mm, center]{page in footline}
+		\insertframenumber / \inserttotalframenumber \par	
+	\end{beamercolorbox}
+}
+
+\begin{document}
+	\begin{frame}
+		\titlepage
+	\end{frame}
+	
+	\section{Seção I}
+	\begin{frame}{Título do quadro I}
+		\framesubtitle{Subtítulo do quadro I}
+		
+		Um texto normal. \alert{Um texto com alerta.}
+		
+		$$\int_a^b f(x)\, dx= F(b) - F(a), \text{ com } F'(x) = f(x)$$
+		
+		\begin{itemize}
+			\item Aqui tem um item.
+			\item Aqui tem outro item.
+		\end{itemize}
+		
+		\begin{enumerate}
+			\item Aqui tem um item.
+			\item Aqui tem outro item.
+		\end{enumerate}
+		
+		\begin{block}{Título do bloco}
+			Texto no corpo do bloco
+		\end{block}
+	\end{frame}
+	
+	\section{Seção II}
+	\subsection{Subseção I da seção II}
+	\begin{frame}{Título do quadro II}
+		\framesubtitle{Subtítulo do quadro II}
+		
+		Um texto normal. \alert{Um texto com alerta.}
+		
+		$$\int_a^b f(x)\, dx= F(b) - F(a), \text{ com } F'(x) = f(x)$$
+		
+		\begin{itemize}
+			\item Aqui tem um item.
+			\item Aqui tem outro item.
+		\end{itemize}
+		
+		\begin{enumerate}
+			\item Aqui tem um item.
+			\item Aqui tem outro item.
+		\end{enumerate}
+		
+		\begin{block}{Título do bloco}
+			Texto no corpo do bloco
+		\end{block}
+	\end{frame}
+	
+	\subsection{Subseção II da seção II}
+	\begin{frame}{Título do quadro III}
+		\framesubtitle{Subtítulo do quadro III}
+		
+		Um texto normal. \alert{Um texto com alerta.}
+		
+		$$\int_a^b f(x)\, dx= F(b) - F(a), \text{ com } F'(x) = f(x)$$
+		
+		\begin{itemize}
+			\item Aqui tem um item.
+			\item Aqui tem outro item.
+		\end{itemize}
+		
+		\begin{enumerate}
+			\item Aqui tem um item.
+			\item Aqui tem outro item.
+		\end{enumerate}
+		
+		\begin{block}{Título do bloco}
+			Texto no corpo do bloco
+		\end{block}
+	\end{frame}
+\end{document}
