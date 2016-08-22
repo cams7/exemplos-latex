@@ -1,0 +1,105 @@
+\documentclass[aspectratio=169]{beamer}
+\usetheme{Berlin}
+\usepackage[brazilian]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\graphicspath{{img/}}
+\usepackage{amsmath,amsfonts,amssymb}
+\setbeamercovered{transparent}
+
+\title{Curso de BEAMER}
+\subtitle{Subtítulo da apresentação}
+\author[César \and Jorge \and Clarrise \and Luis]{César A. de Magalhães \and Jorge Amado \and Clarrise Lispector \and Luis Fernado Verissimo}
+\institute[UNOPAR]{Universidade do Norte do Paraná \\ https://vestibular.unoparead.com.br}
+\date{\today}
+\logo{\includegraphics[scale=0.25]{ctan-leao.jpg}}
+
+
+\begin{document}
+	\begin{frame}
+		\titlepage
+	\end{frame}
+			
+	\begin{frame}{Título do quadro 1}
+		\begin{itemize}[<+->]
+			\item Slide 1.1
+			\item Slide 1.2
+			\item Slide 1.3
+			\item Slide 1.4
+		\end{itemize}
+		
+		\hypertarget<2>{slide12}{}
+		
+		\hyperlink{slide12}{\beamerbutton{slide 1.2}} 		
+		\hyperlink{slide23}{\beamergotobutton{slide 2.3}}		
+		\hyperlink{quadro3<1>}{\beamerskipbutton{slide 3.1}}
+		\hyperlink{quadro3<4>}{\beamerreturnbutton{slide 3.4}}
+		
+		\hyperlinkslidenext{Próximo slide}
+		\hyperlinkslideprev{Slide anterior}
+		
+		\hyperlinkframestart{Início do quadro}
+		\hyperlinkframeend{Final do quadro}
+		
+		\hyperlinkframestartnext{Início do quadro (Próximo)}
+		\hyperlinkframeendprev{Fim do quadro (Anterior)}
+		
+		\hyperlinkpresentationstart{Início da apresentação}
+		\hyperlinkpresentationend{Fim da apresentação}
+	\end{frame}
+	
+	\begin{frame}{Título do quadro 2}
+		\begin{itemize}[<+->]
+			\item Slide 2.1
+			\item Slide 2.2
+			\item Slide 2.3
+			\item Slide 2.4
+		\end{itemize}
+		
+		\hypertarget<3>{slide23}{}
+	\end{frame}
+	
+	\begin{frame}<1-2>[label=quadro3]{Título do quadro 3}
+		\begin{itemize}[<+->]
+			\item Slide 3.1
+			\item Slide 3.2
+			\item Slide 3.3
+			\item Slide 3.4
+		\end{itemize}		
+	\end{frame}
+	
+	\begin{frame}{Título do quadro 4}
+		\begin{itemize}[<+->]
+			\item Slide 4.1
+			\item Slide 4.2
+			\item Slide 4.3
+			\item Slide 4.4
+		\end{itemize}		
+	\end{frame}
+	
+	\begin{frame}{Título do quadro 5}
+		\begin{itemize}[<+->]
+			\item Slide 5.1
+			\item Slide 5.2
+			\item Slide 5.3
+			\item Slide 5.4
+		\end{itemize}		
+	\end{frame}
+	
+	\againframe<3->{quadro3}
+	
+	\begin{frame}{Título do quadro 6}
+		\hypersetup{linkbordercolor=blue}
+		\framezoom<1><2>[border](5.5cm,1.5cm)(3cm,2cm)
+		\begin{figure}
+			\centering
+			\includegraphics[scale=0.7]{cabra.png}
+		\end{figure}		
+	\end{frame}
+	
+	\begin{frame}{Título do quadro 7}
+		\hypersetup{linkbordercolor=blue}
+		\framezoom<1><2>[border=2](5.5cm,1.5cm)(3cm,2cm)
+		Aqui vem um texto. Aqui vem um texto. Aqui vem um texto. Aqui vem um texto.. Aqui vem um texto.. Aqui vem um texto.. Aqui vem um texto.. Aqui vem um texto.. Aqui vem um texto.. Aqui vem um texto.. Aqui vem um texto.. Aqui vem um texto.. Aqui vem um texto.. Aqui vem um texto.. Aqui vem um texto.. Aqui vem um texto.. Aqui vem um texto.. Aqui vem um texto.. Aqui vem um texto.. Aqui vem um texto.. Aqui vem um texto.. Aqui vem um texto.. Aqui vem um texto.. Aqui vem um texto.. Aqui vem um texto.. Aqui vem um texto.. Aqui vem um texto.. Aqui vem um texto.. Aqui vem um texto.. Aqui vem um texto.
+	\end{frame}
+\end{document}
