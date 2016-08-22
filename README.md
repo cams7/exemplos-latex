@@ -50,3 +50,12 @@ Exemplos retirados do Youtube através do canal [LCMAquino] (https://www.youtube
 10. [Inserir Figura.] (https://github.com/cams7/exemplos-latex/tree/master/Youtube%20-%20LCMAquino) | [Introdução ao LaTeX.] (https://www.youtube.com/watch?v=Km3-KlYLYu8&list=PLa_2246N48_p9ndUHlO255uvKtSR8mshE&index=10)
 11. [Inserir Tabela.] (https://github.com/cams7/exemplos-latex/tree/master/Youtube%20-%20LCMAquino) | [Introdução ao LaTeX.] (https://www.youtube.com/watch?v=u9Y8tRhnx-0&list=PLa_2246N48_p9ndUHlO255uvKtSR8mshE&index=11)
 12. [Formatação de Textos Longos.] (https://github.com/cams7/exemplos-latex/tree/master/Youtube%20-%20LCMAquino) | [Introdução ao LaTeX.] (https://www.youtube.com/watch?v=4u23O5s6ark&list=PLa_2246N48_p9ndUHlO255uvKtSR8mshE&index=12)
+
+Exemplos retirados do Youtube através do canal [LCMAquino] (https://www.youtube.com/channel/UCKuwqceoy_TPnGG_5AnI7DQ) - [Curso de BEAMER] (https://www.youtube.com/playlist?list=PLa_2246N48_rk8nzKg6VDykSEU6svwv4r)
+-------------------
+01. Formatação básica de apresentações | [Curso de BEAMER] (https://www.youtube.com/watch?v=l1eH_EhxvWY&list=PLa_2246N48_rk8nzKg6VDykSEU6svwv4r&index=1)
+02. Especificação de Sobreposição | [Curso de BEAMER] (https://www.youtube.com/watch?v=naNYRFrCXV0&list=PLa_2246N48_rk8nzKg6VDykSEU6svwv4r&index=2)
+03. Estrutura da Apresentação | [Curso de BEAMER] (https://www.youtube.com/watch?v=3yHAu8dPxVk&list=PLa_2246N48_rk8nzKg6VDykSEU6svwv4r&index=3)
+04. Navegação da Apresentação | [Curso de BEAMER] (https://www.youtube.com/watch?v=dtM95ZzsFnM&list=PLa_2246N48_rk8nzKg6VDykSEU6svwv4r&index=4)
+05. Inserir vídeo, áudio e transição | [Curso de BEAMER] (https://www.youtube.com/watch?v=IZwU7jk3ITo&list=PLa_2246N48_rk8nzKg6VDykSEU6svwv4r&index=5)
+06. Personalizar o Tema da Apresentação | [Curso de BEAMER] (https://www.youtube.com/watch?v=SLWwFPMtYM4&list=PLa_2246N48_rk8nzKg6VDykSEU6svwv4r&index=6)

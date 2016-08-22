@@ -1,0 +1,37 @@
+\documentclass[aspectratio=169]{beamer}
+\usetheme{PaloAlto}
+\usepackage[brazilian]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\graphicspath{{img/}}
+
+\title{Curso de BEAMER}
+\subtitle{Subtítulo da apresentação}
+\author[César \and Jorge \and Clarrise \and Luis]{César A. de Magalhães \and Jorge Amado \and Clarrise Lispector \and Luis Fernado Verissimo}
+\institute[UNOPAR]{Universidade do Norte do Paraná \\ https://vestibular.unoparead.com.br}
+\date{\today}
+\logo{\includegraphics[scale=0.2]{ctan-leao.jpg}}
+
+\begin{document}
+	\begin{frame}
+		\titlepage
+	\end{frame}
+	\begin{frame}{Esse o título do 1º quadro}
+		O texto vem aqui!!!
+		\alert{Esse ficará em destaque.} \pause
+		\begin{block}{Aqui vem o título do primeiro bloco}
+			Texto do primeiro bloco
+		\end{block}\pause	
+		\begin{block}{Aqui vem o título do segundo bloco}
+			Texto do segundo bloco
+		\end{block}\pause
+		\begin{block}{\ }
+			Texto do terceiro bloco
+		\end{block}
+	\end{frame}
+	\begin{frame}
+		\frametitle{Esse o título do 2º quadro}
+		\framesubtitle{Esse é o subtítulo}
+		O texto vem aqui!!!
+	\end{frame}
+\end{document}
