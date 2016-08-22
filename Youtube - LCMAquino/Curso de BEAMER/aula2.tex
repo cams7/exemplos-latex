@@ -1,0 +1,165 @@
+\documentclass[aspectratio=169]{beamer}
+\usetheme{PaloAlto}
+\usepackage[brazilian]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\graphicspath{{img/}}
+\usepackage{amsmath,amsfonts,amssymb}
+\setbeamercovered{transparent}
+
+\title{Curso de BEAMER}
+\subtitle{Subtítulo da apresentação}
+\author[César \and Jorge \and Clarrise \and Luis]{César A. de Magalhães \and Jorge Amado \and Clarrise Lispector \and Luis Fernado Verissimo}
+\institute[UNOPAR]{Universidade do Norte do Paraná \\ https://vestibular.unoparead.com.br}
+\date{\today}
+\logo{\includegraphics[scale=0.25]{ctan-leao.jpg}}
+
+\begin{document}
+	\begin{frame}
+		\titlepage
+	\end{frame}
+	\begin{frame}
+		\frametitle{Equação do segundo grau}
+		\framesubtitle{Primeiro quadro - pause}
+		
+		Vamos resolver uma equação do segundo grau:
+		$$ax^2 + bx + c = 0$$\pause
+		
+		Primeiro identifique os coeficientes $a$, $b$ e $c$.\pause
+		
+		Em seguida, calcule o valor de: 
+		$$\Delta = b^2 - 4ac$$\pause
+		
+		Calcule a primeira raiz:
+		$$x_1 = \dfrac{-b + \sqrt{\Delta}}{2a}$$\pause
+		
+		Calcule a segunda raiz:
+		$$x_2 = \dfrac{-b - \sqrt{\Delta}}{2a}$$\pause
+	\end{frame}
+	\begin{frame}
+		\frametitle{Equação do segundo grau}
+		\framesubtitle{Segundo quadro - uncover}
+		
+		\uncover<1>{Vamos resolver uma equação do segundo grau:
+			$$ax^2 + bx + c = 0$$}
+		
+		\uncover<2>{Primeiro identifique os coeficientes $a$, $b$ e $c$.}
+		
+		\uncover<3>{Em seguida, calcule o valor de: 
+			$$\Delta = b^2 - 4ac$$}
+		
+		\uncover<4>{Calcule a primeira raiz:
+			$$x_1 = \dfrac{-b + \sqrt{\Delta}}{2a}$$}
+		
+		\uncover<5>{Calcule a segunda raiz:
+			$$x_2 = \dfrac{-b - \sqrt{\Delta}}{2a}$$}
+	\end{frame}
+	\begin{frame}
+		\frametitle{Equação do segundo grau}
+		\framesubtitle{Terceiro quadro - visible}
+		
+		\visible<1>{Vamos resolver uma equação do segundo grau:
+			$$ax^2 + bx + c = 0$$}
+		
+		\visible<2>{Primeiro identifique os coeficientes $a$, $b$ e $c$.}
+		
+		\visible<3>{Em seguida, calcule o valor de: 
+			$$\Delta = b^2 - 4ac$$}
+		
+		\visible<4>{Calcule a primeira raiz:
+			$$x_1 = \dfrac{-b + \sqrt{\Delta}}{2a}$$}
+		
+		\visible<5>{Calcule a segunda raiz:
+			$$x_2 = \dfrac{-b - \sqrt{\Delta}}{2a}$$}
+	\end{frame}
+	\begin{frame}
+		\frametitle{Equação do segundo grau}
+		\framesubtitle{Quarto quadro - only}
+		
+		\only<1>{Vamos resolver uma equação do segundo grau:
+			$$ax^2 + bx + c = 0$$}
+		
+		\only<2>{Primeiro identifique os coeficientes $a$, $b$ e $c$.}
+		
+		\only<3>{Em seguida, calcule o valor de: 
+			$$\Delta = b^2 - 4ac$$}
+		
+		\only<4>{Calcule a primeira raiz:
+			$$x_1 = \dfrac{-b + \sqrt{\Delta}}{2a}$$}
+		
+		\only<5>{Calcule a segunda raiz:
+			$$x_2 = \dfrac{-b - \sqrt{\Delta}}{2a}$$}
+	\end{frame}
+	\begin{frame}
+		\frametitle{Equação do segundo grau}
+		\framesubtitle{Quinto quadro - itemize}
+		
+		\begin{itemize}
+			\item<1- | alert@1> Vamos resolver uma equação do segundo grau:
+			$$ax^2 + bx + c = 0$$			
+			\item<2- | alert@2> Primeiro identifique os coeficientes $a$, $b$ e $c$.			
+			\item<3- | alert@3> Em seguida, calcule o valor de: 
+			$$\Delta = b^2 - 4ac$$			
+			\item<4- | alert@4> Calcule a primeira raiz:
+			$$x_1 = \dfrac{-b + \sqrt{\Delta}}{2a}$$			
+			\item<5- | alert@5> Calcule a segunda raiz:
+			$$x_2 = \dfrac{-b - \sqrt{\Delta}}{2a}$$
+		\end{itemize}		
+	\end{frame}	
+	\begin{frame}
+		\frametitle{Equação do segundo grau}
+		\framesubtitle{Sexto quadro - itemize}
+		
+		\begin{itemize}[<+- | alert@+>]
+			\item Vamos resolver uma equação do segundo grau:
+			$$ax^2 + bx + c = 0$$			
+			\item Primeiro identifique os coeficientes $a$, $b$ e $c$.			
+			\item Em seguida, calcule o valor de: 
+			$$\Delta = b^2 - 4ac$$			
+			\item Calcule a primeira raiz:
+			$$x_1 = \dfrac{-b + \sqrt{\Delta}}{2a}$$			
+			\item Calcule a segunda raiz:
+			$$x_2 = \dfrac{-b - \sqrt{\Delta}}{2a}$$
+		\end{itemize}		
+	\end{frame}
+	\begin{frame}
+		\frametitle{Equação do segundo grau}
+		\framesubtitle{Sétimo quadro - block}
+		
+		\begin{block}<1 - | only@1>{}		
+			Vamos resolver uma equação do segundo grau:
+			$$ax^2 + bx + c = 0$$
+		\end{block}
+		
+		\begin{block}<2 - | only@2>{\ }
+			Primeiro identifique os coeficientes $a$, $b$ e $c$.
+		\end{block}
+		
+		\begin{block}<3 - | only@3>{\ }
+			Em seguida, calcule o valor de: 
+			$$\Delta = b^2 - 4ac$$
+		\end{block}
+		
+		\begin{block}<4 - | only@4>{Primeira raiz}
+			Calcule a primeira raiz:
+			$$x_1 = \dfrac{-b + \sqrt{\Delta}}{2a}$$
+		\end{block}
+		
+		\begin{block}<5 - | only@5>{Segunda raiz}
+			Calcule a segunda raiz:
+			$$x_2 = \dfrac{-b - \sqrt{\Delta}}{2a}$$
+		\end{block}
+	\end{frame}
+	\begin{frame}{Oitavo quadro - figure}
+		Aqui vem o texto
+		
+		\begin{figure}
+			\centering
+			\includegraphics<1>[scale=0.5]{cabra.png}
+			\includegraphics<2>[scale=0.5]{cachorro.png}
+			\includegraphics<3>[scale=0.2]{elefante.png}
+			\includegraphics<4>[scale=0.5]{hipopotamo.png}
+			\includegraphics<5>[scale=0.5]{leao.png}
+		\end{figure}
+	\end{frame}
+\end{document}
