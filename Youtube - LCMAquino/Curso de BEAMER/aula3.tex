@@ -1,0 +1,169 @@
+\documentclass[aspectratio=169]{beamer}
+\usetheme{Berlin}
+\usepackage[brazilian]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\graphicspath{{img/}}
+\usepackage{amsmath,amsfonts,amssymb}
+\setbeamercovered{transparent}
+
+\title{Curso de BEAMER}
+\subtitle{Subtítulo da apresentação}
+\author[César \and Jorge \and Clarrise \and Luis]{César A. de Magalhães \and Jorge Amado \and Clarrise Lispector \and Luis Fernado Verissimo}
+\institute[UNOPAR]{Universidade do Norte do Paraná \\ https://vestibular.unoparead.com.br}
+\date{\today}
+\logo{\includegraphics[scale=0.25]{ctan-leao.jpg}}
+
+\AtBeginPart{	
+	\begin{frame}{Sumário}
+		\tableofcontents[pausesections,pausesubsections]
+		%\tableofcontents[currentpart]
+	\end{frame}
+}
+
+\AtBeginSection{
+	\begin{frame}
+		\tableofcontents[currentsection, hideallsubsections]
+	\end{frame}
+}
+%\AtBeginSubsection{
+%	\begin{frame}
+%		\tableofcontents[currentsubsection, hideothersubsections]
+%	\end{frame}
+%}
+
+\begin{document}
+	\begin{frame}
+		\titlepage
+	\end{frame}
+			
+	\part{Primeira apresentação}
+		\section[Introdução]{Introdução à primeira apresentação}
+			\begin{frame}
+				\frametitle{Aqui é o título do quadro 1}
+				\framesubtitle{Aqui é o subtítulo do quadro 1}
+				Esse e o quadro 1.
+			\end{frame}	
+		
+		\section[Metodologia]{Metodologia da primeira apresentação}
+			\subsection{Uma subseção da metodologia}
+				\begin{frame}
+					\frametitle{Aqui é o título do quadro 2}
+					\framesubtitle{Aqui é o subtítulo do quadro 2}
+					Esse e o quadro 2 \cite{meuartigo}.
+				\end{frame}	
+			
+			\subsection{Uma outra subseção da metodologia}
+				\begin{frame}
+					\frametitle{Aqui é o título do quadro 3}
+					\framesubtitle{Aqui é o subtítulo do quadro 3}
+					Esse e o quadro 3.
+				\end{frame}	
+		
+		\section[Discussão]{Discussão da primeira apresentação}
+			\subsection{Uma subseção da discussão}
+				\begin{frame}
+					\frametitle{Aqui é o título do quadro 4}
+					\framesubtitle{Aqui é o subtítulo do quadro 4}
+					Esse e o quadro 4 \cite{meulivro}.
+				\end{frame}
+				\begin{frame}
+					\frametitle{Aqui é o título do quadro 5}
+					\framesubtitle{Aqui é o subtítulo do quadro 5}
+					Esse e o quadro 5.
+				\end{frame}
+			
+				\subsection{Uma outra subseção da discussão}
+					\begin{frame}
+						\frametitle{Aqui é o título do quadro 6}
+						\framesubtitle{Aqui é o subtítulo do quadro 6}
+						Esse e o quadro 6.
+					\end{frame}
+			
+			\subsubsection{Subseção da subseção discussão}
+				\begin{frame}
+					\frametitle{Aqui é o título do quadro 7}
+					\framesubtitle{Aqui é o subtítulo do quadro 7}
+					Esse e o quadro 7.
+				\end{frame}
+		
+		\section[Conclusão]{Conclusão da primeira apresentação}
+			\begin{frame}
+				\frametitle{Aqui é o título do quadro 8}
+				\framesubtitle{Aqui é o subtítulo do quadro 8}
+				Esse e o quadro 8.
+			\end{frame}
+			\begin{frame}
+				\frametitle{Aqui é o título do quadro 9}
+				\framesubtitle{Aqui é o subtítulo do quadro 9}
+				Esse e o quadro 9.
+			\end{frame}
+		
+	\part{Segunda apresentação}
+		\section[Introdução]{Introdução à segunda apresentação}
+			\begin{frame}
+				\frametitle{Aqui é o título do quadro 1}
+				\framesubtitle{Aqui é o subtítulo do quadro 1}
+				Esse e o quadro 1.
+			\end{frame}	
+		
+		\section[Metodologia]{Metodologia da segunda apresentação}
+			\subsection{Uma subseção da metodologia}
+				\begin{frame}
+					\frametitle{Aqui é o título do quadro 2}
+					\framesubtitle{Aqui é o subtítulo do quadro 2}
+					Esse e o quadro 2 \cite{meuartigo}.
+				\end{frame}	
+			
+			\subsection{Uma outra subseção da metodologia}
+				\begin{frame}
+					\frametitle{Aqui é o título do quadro 3}
+					\framesubtitle{Aqui é o subtítulo do quadro 3}
+					Esse e o quadro 3.
+				\end{frame}	
+		
+		\section[Discussão]{Discussão da segunda apresentação}
+			\subsection{Uma subseção da discussão}
+				\begin{frame}
+					\frametitle{Aqui é o título do quadro 4}
+					\framesubtitle{Aqui é o subtítulo do quadro 4}
+					Esse e o quadro 4 \cite{meulivro}.
+				\end{frame}
+				\begin{frame}
+					\frametitle{Aqui é o título do quadro 5}
+					\framesubtitle{Aqui é o subtítulo do quadro 5}
+					Esse e o quadro 5.
+				\end{frame}
+			
+			\subsection{Uma outra subseção da discussão}
+				\begin{frame}
+					\frametitle{Aqui é o título do quadro 6}
+					\framesubtitle{Aqui é o subtítulo do quadro 6}
+					Esse e o quadro 6.
+				\end{frame}
+				
+				\subsubsection{Subseção da subseção discussão}
+					\begin{frame}
+						\frametitle{Aqui é o título do quadro 7}
+						\framesubtitle{Aqui é o subtítulo do quadro 7}
+						Esse e o quadro 7.
+					\end{frame}
+		
+		\section[Conclusão]{Conclusão da segunda apresentação}
+			\begin{frame}
+				\frametitle{Aqui é o título do quadro 8}
+				\framesubtitle{Aqui é o subtítulo do quadro 8}
+				Esse e o quadro 8.
+			\end{frame}
+			\begin{frame}
+				\frametitle{Aqui é o título do quadro 9}
+				\framesubtitle{Aqui é o subtítulo do quadro 9}
+				Esse e o quadro 9.
+			\end{frame}
+	
+	\section*{Referências}
+	\begin{frame}
+		\bibliographystyle{apalike}
+		\bibliography{referencia}
+	\end{frame}
+\end{document}
