@@ -55,7 +55,7 @@ Exemplos retirados do Youtube através do canal [LCMAquino] (https://www.youtube
 -------------------
 01. [Formatação básica de apresentações] (https://github.com/cams7/exemplos-latex/tree/master/Youtube%20-%20LCMAquino/Curso%20de%20BEAMER) | [Curso de BEAMER] (https://www.youtube.com/watch?v=l1eH_EhxvWY&list=PLa_2246N48_rk8nzKg6VDykSEU6svwv4r&index=1)
 02. [Especificação de Sobreposição] (https://github.com/cams7/exemplos-latex/tree/master/Youtube%20-%20LCMAquino/Curso%20de%20BEAMER) | [Curso de BEAMER] (https://www.youtube.com/watch?v=naNYRFrCXV0&list=PLa_2246N48_rk8nzKg6VDykSEU6svwv4r&index=2)
-03. Estrutura da Apresentação | [Curso de BEAMER] (https://www.youtube.com/watch?v=3yHAu8dPxVk&list=PLa_2246N48_rk8nzKg6VDykSEU6svwv4r&index=3)
+03. [Estrutura da Apresentação] (https://github.com/cams7/exemplos-latex/tree/master/Youtube%20-%20LCMAquino/Curso%20de%20BEAMER) | [Curso de BEAMER] (https://www.youtube.com/watch?v=3yHAu8dPxVk&list=PLa_2246N48_rk8nzKg6VDykSEU6svwv4r&index=3)
 04. Navegação da Apresentação | [Curso de BEAMER] (https://www.youtube.com/watch?v=dtM95ZzsFnM&list=PLa_2246N48_rk8nzKg6VDykSEU6svwv4r&index=4)
 05. Inserir vídeo, áudio e transição | [Curso de BEAMER] (https://www.youtube.com/watch?v=IZwU7jk3ITo&list=PLa_2246N48_rk8nzKg6VDykSEU6svwv4r&index=5)
 06. Personalizar o Tema da Apresentação | [Curso de BEAMER] (https://www.youtube.com/watch?v=SLWwFPMtYM4&list=PLa_2246N48_rk8nzKg6VDykSEU6svwv4r&index=6)
